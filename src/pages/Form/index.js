@@ -43,9 +43,7 @@ export default function Form() {
             userUid: doc.data().userUid,
           });
         });
-        console.log(lista);
         setTarefas(lista);
-        console.log(tarefas);
       });
     }
 
@@ -68,13 +66,13 @@ export default function Form() {
       //   userUid: user?.uid,
     })
       .then(() => {
-        console.log('Cadastro Realizado');
+        alert('Cadastro Realizado');
         setName('');
         setPhone('');
         setEmail('');
       })
       .catch((error) => {
-        console.log('ERRO AO REGISTRAR ' + error);
+        alert('ERRO AO REGISTRAR ' + error);
       });
   }
 

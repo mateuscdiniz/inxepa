@@ -25,7 +25,7 @@ export default function Home() {
           navigate('/dashboard', { replace: true });
         })
         .catch(() => {
-          console.log('ERRO AO FAZER O LOGIN');
+          alert('ERRO AO FAZER O LOGIN');
         });
     } else {
       alert('Preencha todos os campos!');
