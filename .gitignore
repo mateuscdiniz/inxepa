@@ -5,7 +5,7 @@
 /.pnp
 .pnp.js
 firebaseConnection.js
-.firebaseConnection.js
+*.firebaseConnection.js
 
 # testing
 /coverage
