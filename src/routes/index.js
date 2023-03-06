@@ -12,7 +12,7 @@ function RoutesApp() {
     <Routes>
       <Route path="/" element={<Form />} />
       <Route path="/register" element={<Register />} />
-      <Route path="/admin" element={<Home />} />
+      <Route path="/login" element={<Home />} />
 
       <Route
         path="/dashboard"
