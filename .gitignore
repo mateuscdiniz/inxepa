@@ -4,8 +4,8 @@
 /node_modules
 /.pnp
 .pnp.js
-./src/.firebaseConnection.js
-./src/*.firebaseConnection.js
+./src/.firebaseConnections.js
+./src/*.firebaseConnections.js
 
 # testing
 /coverage
