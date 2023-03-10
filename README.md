@@ -1,4 +1,4 @@
-Formulário com firebase.
+Form with firebase.
 
 URL: https://inxepa.vercel.app/
 
